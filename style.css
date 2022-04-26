@@ -870,4 +870,17 @@ textarea{
         margin-bottom: 20px;
         padding: 10px 10px;
     }
+
+    .pagos-footer{
+        display: none;
+    }
+    .contacto-footer{
+        display: none;
+    }
+    .redes-footer{
+        flex-direction: row;
+    }
+    .redes-titulo{
+        display: none;
+    }
 }
