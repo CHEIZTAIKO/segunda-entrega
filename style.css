@@ -1,0 +1,870 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(29, 29, 48);
+}
+/*------------------------------------header-----------------------------------------------*/
+header{
+    width:100%;
+    margin-top: 20px;
+    background-color: bisque;
+    background: linear-gradient(15deg, rgb(151, 157, 185),black) ;
+    border-bottom: 3px solid rgba(200, 199, 199,0.5);
+    border-top: 3px solid rgba(200, 199, 199,0.5);
+}
+nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+nav a{
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'nosifer';
+    color:white;
+    margin: 0;
+    color: black;
+    height:100%;
+}
+.reiver{
+    width:160px ;
+    height:60px ;
+    margin-top: 15px;
+    }
+.reiver:hover{
+    transform:scale(1.5)
+}
+.bass{
+    width:200px ;
+    height:70px ;
+    margin-top:10px;
+}
+.bass:hover{
+    transform:scale(1.5)
+}
+.pick{
+    width:70px ;
+    height:70px ;
+    margin-top: 10px;
+}
+.pick:hover{
+    transform:scale(1.5)
+}
+.hoja{
+    width: 70px;
+    height:70px;
+    margin-top: 10px;
+}
+.hoja:hover{
+    transform:scale(1.5)
+}
+.plug{
+    width: 80px;
+    height:80px;
+    margin-top: 10px;
+}
+.plug:hover{
+    transform:scale(1.5)
+}
+
+/*----------------------------------------footer-----------------------------------------------------*/
+.footer{
+    color: black;
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0,0,0,0.9);
+    border-top: 2px solid rgba(200, 199, 199,0.5);
+    border-bottom: 2px solid rgba(200, 199, 199,0.5);
+}
+
+
+/*---------------------------------------------PAGOS---------------------------------------------------*/
+.pagos-footer{
+    font-size: 1.1em;
+    width:300px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+.pagos-titulo{
+    background-color: rgba(23, 25, 26,0.4);
+    color: white;
+    border-radius: 10px;
+    margin:20px ;
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagos-visa{
+    font-size: 1.5em;
+    background: rgb(45, 13, 226);
+    border-radius: 10px;
+    width: 180px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagos-visa-color{
+    color: white ;
+    text-decoration: none;
+    font-size: 1em;
+}
+.visa{
+    width: 50px;
+    height: 50px;
+}
+
+.pagos-mastercard{
+    font-size: 1.3em;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 180px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagos-mastercard-color{
+    color: white ;
+    text-decoration: none;
+    font-size: 1em;
+}
+.mastercard{
+    width: 50px;
+    height: 50px;
+}
+
+/*--------------------------------------------REDES-------------------------------------------------*/
+
+.redes-footer{
+    font-size: 1.1em;
+    width:300px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgba(0,0,0,0.2) ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+.redes-titulo{
+    background-color: rgba(23, 25, 26,0.4);
+    color: white;
+    border-radius: 10px;
+    margin:20px;
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-facebook{
+    font-size: 1.1em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 180px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes-facebook-color{
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+}
+
+
+.redes-instagram{ 
+    font-size: 1.1em;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    border-radius: 10px;
+    width: 180px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes-instagram-color{
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+}
+.instagram{
+    width: 40px;
+    height: 40px;
+}
+
+.redes-whatsapp{
+    font-size: 1.1em;
+    background: rgb(46, 167, 46);
+    border-radius: 10px;
+    width: 180px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-whatsapp-color{
+    color:black;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.whatsapp{
+    width: 50px;
+    height: 50px;
+}
+
+.contacto-footer{
+    font-size: 1.1em;
+    width:300px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+.contacto-titulo{
+    background-color: rgba(23, 25, 26,0.4);
+    color: white;
+    border-radius: 10px;
+    margin:20px ;
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacto-numero{
+    font-size: 1.5em;
+    color: white;
+    border-radius: 10px;
+    width: 180px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*selector*/
+.selector{
+    width:140px ;
+    height:60px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+    position:relative;
+    left:20px;
+    color:black;
+    background-color: black;
+    background: linear-gradient(15deg, rgb(151, 157, 185),black) ;
+}
+
+/*-------------------------------------------------formulario-----------------------------------------*/
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding:10px 20px ;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 2px solid rgba(200, 199, 199,0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-titulo{
+    color: rgb(151, 157, 185);
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+textarea{
+    min-height: 120px;
+    max-height: 220px;
+    max-width: 100%;
+    
+}
+#boton{
+    color: white;
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#boton:hover{
+    background: rgba(236, 233, 233, 0.4);
+    color: black;
+    cursor: pointer;
+}
+
+
+/*---------------------------------------inicio-----------------------------------------------------*/
+.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    font-size: 3em;
+    padding:25px;
+    color:rgb(151, 157, 185);
+}
+.inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:rgb(151, 157, 185);
+}
+.inicio-titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    font-size: 3em;
+    padding:20px;
+}
+.inicio-introduccion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    margin:40px 20px 40px 20px;
+    padding:10px;
+    
+}
+
+/*1er ----------------------------------- muestra inicio--------------------------------------------*/
+.grid{
+    width: 100%;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+/*------------------------------------------modelos del inicio ------------------------------------ */
+.inicio-modelo{
+    font-family: 'Diplomata SC';
+    font-size: 3em;
+    text-align: center;
+    color:rgb(36, 33, 29);
+}
+.inicio-modelo2{
+    font-family: 'Diplomata SC';
+    font-size: 3em;
+    text-align: center;
+    color:rgb(207, 177, 141);
+}
+.modelo-1{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-content: center;
+    justify-content: space-around;
+    background-image: url('img/fondo1.jpg');
+    width: 100% ;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 10px auto;
+}
+.modelo-2{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    background-image: url('img/fondo2.jpg');
+    width: 100% ;
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+    margin: 10px auto;
+}
+.inicio-guitar{
+    width: 90% ;
+    height: 75%;    
+}
+.inicio-bass{
+    width: 100% ;
+    height: 75%;
+    
+}
+/*--------------------------------------------grid--------------------------------------*/
+.grid-guitar{
+    display: grid;
+    grid-template-areas: 
+    ". card-1 card-2 card-3 card-4 ."
+    ". card-2-1 card-2-2 card-2-3 card-2-4 .";
+    grid-template-columns:20px 1fr 1fr 1fr 1fr 20px ;
+    grid-template-rows:450px 100px;
+    flex-wrap: wrap;
+    margin-top: 130px;
+    
+}
+/*---------------------------------------cards guitar----------------------------------------*/
+.especificaciones-g{
+    font-family: 'PT Serif';
+    font-size: 1.2em;
+    color: rgb(151, 157, 185);
+    margin: 10px 10px;
+    padding-top:15px;
+}
+.precio{
+    font-family: 'PT Serif';
+    font-size: 1.2em;
+    color: rgb(151, 157, 185);
+    margin: 10px 20px;
+    padding-top: 50px;
+}
+
+.card-1{
+    grid-area: card-1;
+    font-family: 'PT Serif';
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 20px ;
+}
+.img-1{
+    grid-area:card-1;
+    height:350px;
+    width:140px;
+    filter:drop-shadow(0 0 10px blueviolet);
+    transition: all 0.3s;
+
+}
+.card-2-1{
+    grid-area: card-2-1;
+    margin:0px 20px;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: center;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.img-1:hover{
+    filter:drop-shadow(0 0 40px blueviolet);
+}
+/*--------------------------------------------card 2------------------------------------------*/
+.card-2{
+    grid-area: card-2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 20px ;
+}
+.img-2{
+    grid-area:card-2;
+    height:350px;
+    width:140px;
+    filter:drop-shadow(0 0 10px rgb(255, 133, 154));
+    transition: all 0.3s;
+}
+.card-2-2{
+    grid-area: card-2-2;
+    margin:0px 20px;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: center;
+    background-color: rgba(0,0,0,0.6);
+}
+.img-2:hover{
+    filter:drop-shadow(0 0 40px rgb(255, 133, 154));
+}
+
+/*-------------------------------------------CARD 3-----------------------------------------*/
+.card-3{
+    grid-area: card-3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 20px ;
+}
+.img-3{
+    grid-area:card-3;
+    height:350px;
+    width:140px;
+    filter:drop-shadow(0 0 10px rgb(229, 39, 39));
+    transition: all 0.3s;
+}
+.card-2-3{
+    grid-area: card-2-3;
+    margin:0px 20px;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: center;
+    background-color: rgba(0,0,0,0.6);
+}
+.img-3:hover{
+    filter:drop-shadow(0 0 50px rgb(229, 39, 39));
+}
+
+
+/*----------------------------------------------card 4-----------------------------------------------*/
+.card-4{
+    grid-area: card-4;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 20px ;
+}
+.img-4{
+    grid-area:card-4;
+    height:350px;
+    width:140px;
+    filter:drop-shadow(0 0 10px rgb(51, 48, 252));
+    transition: all 0.3s;
+}
+.card-2-4{
+    grid-area: card-2-4;
+    margin:0px 20px;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: center;
+    background-color: rgba(0,0,0,0.6);
+}
+.img-4:hover{
+    filter:drop-shadow(0 0 40px rgb(51, 48, 252));
+}
+
+/*------------------------------------------bajos----------------------------------------------*/
+.grid-bass{
+    display: grid;
+    grid-template-areas: 
+    ". card-a card-b card-c card-d ."
+    ". card-2-a card-2-b card-2-c card-2-d .";
+    grid-template-columns:20px 1fr 1fr 1fr 1fr 20px ;
+    grid-template-rows:450px 100px;
+    margin-top: 130px;
+}
+/*-------------------------------------------card a------------------------------------------------*/
+.card-a{
+    grid-area: card-a;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 20px ;
+}
+.img-a{
+    grid-area:card-a;
+    height:350px;
+    width:140px;
+    filter: drop-shadow(0 0 10px rgb(177, 163, 54)
+    );
+}
+.card-2-a{
+    grid-area: card-2-a;
+    margin:0px 20px;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: center;
+    background-color: rgba(0,0,0,0.6);
+}
+.img-a:hover{
+    filter: drop-shadow(0 0 40px rgb(177, 163, 54)
+    );
+}
+/*-------------------------------------------card-b----------------------------------------------*/
+.card-b{
+    grid-area: card-b;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 20px ;
+}
+.img-b{
+    grid-area:card-b;
+    height:350px;
+    width:140px;
+    filter: drop-shadow(0 0 10px rgb(192, 130, 73)
+    );
+}
+.card-2-b{
+    grid-area: card-2-b;
+    margin:0px 20px;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: center;
+    background-color: rgba(0,0,0,0.6);
+    }
+    .img-b:hover{
+        filter: drop-shadow(0 0 40px rgb(192, 130, 73)
+    );}
+
+/*------------------------------------------------card-c--------------------------------------------------*/
+.card-c{
+    grid-area: card-c;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 20px ;
+}
+.img-c{
+    grid-area:card-c;
+    height:350px;
+    width:140px;
+    filter: drop-shadow(0 0 10px  rgb(123, 85, 158)
+    );
+    }
+.card-2-c{
+    grid-area: card-2-c;
+    margin:0px 20px;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: center;
+    background-color: rgba(0,0,0,0.6);
+}
+.img-c:hover{
+    filter: drop-shadow(0 0 40px rgb(123, 85, 158)
+    );
+}
+/*----------------------------------------card-d--------------------------------------------------*/
+.card-d{
+    grid-area: card-d;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 0px 20px ;
+    background-color: rgba(0,0,0,0.7);
+}
+.img-d{
+    grid-area:card-d;
+    height:350px;
+    width:140px;
+    filter: drop-shadow(0 0 10px rgb(216, 41, 41)
+    );
+}
+.card-2-d{
+    grid-area: card-2-d;
+    margin:0px 20px;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: center;
+    background-color: rgba(0,0,0,0.6);
+}
+.img-d:hover{
+    filter: drop-shadow(0 0 40px rgb(216, 41, 41)
+    );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------media/responsive--------------------------------------------*/
+@media screen and (max-width: 768px){
+    .inicio{
+        display:flex;
+        flex-direction: column;
+    }
+    .inicio-modelo{
+        font-size: 2em;
+        position: relative;
+        bottom: 20px;
+    }
+    .inicio-modelo2{
+        font-size: 2em;
+        position: relative;
+        bottom: 10px;  
+    }
+    .inicio-guitar{
+        transform: rotate(-90deg);
+        width:50%;
+        height:50%;
+        position: relative;
+        bottom: 35px;
+    }
+    .inicio-bass{
+        transform:rotate(-90deg);
+        width:60%;
+        height: 60%;
+        position: relative;
+        bottom: 30px;
+        
+    }
+    .grid-guitar{
+    grid-template-areas: 
+    ". card-1 card-2 ."
+    ". card-2-1 card-2-2."
+    ". card-3 card-4 ."
+    ". card-2-3 card-2-4 .";
+    grid-template-rows: 450px 100px 450px 100px;
+    grid-template-columns: 20px 1fr 1fr 20px;
+    row-gap: 5px;
+}
+
+    .grid-bass{
+    grid-template-areas: 
+    ". card-a card-b ."
+    ". card-2-a card-2-b ."
+    ". card-c card-d ."
+    ". card-2-c card-2-d ."
+    ;
+    grid-template-columns:20px 1fr 1fr 20px ;
+    grid-template-rows:450px 100px 450px 100px;
+    row-gap: 5px;
+}
+
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .redes-instagram-color{
+        display: none;
+    }
+
+    .redes-whatsapp-color{
+        display: none;
+    }
+    .redes-facebook-color{
+        display:none;
+    }
+    .pagos-visa-color{
+        display: none;
+    }
+    .pagos-mastercard-color{
+        display:none;
+    }
+    .pagos-footer{
+        width:90%;
+        padding: 0;
+        margin: 20px 0 20px 0;
+    }
+    .redes-footer{
+        width:90%;
+        padding: 0;
+        margin: 20px 0 20px 0;
+    }
+    .contacto-footer{
+        width:90%;
+        padding: 0;
+        margin: 20px 0 20px 0;
+    }
+    form{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .inicio-titulo{
+        font-size: 3em;
+        margin-top: 50px;
+    }
+    .inicio-introduccion{
+        font-size: 1.5em;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 10px 10px;
+    }
+}
