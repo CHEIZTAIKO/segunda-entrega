@@ -859,6 +859,24 @@ textarea{
     }
 }
 
+
+@media screen and (max-width:980px){
+    .pagos-footer{
+        display: none;
+    }
+    .contacto-footer{
+        display: none;
+    }
+    .redes-footer{
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .redes-titulo{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 500px){
     .titulo{
         font-size: 2em;
