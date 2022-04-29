@@ -693,7 +693,7 @@ textarea{
     background-color: rgb(32, 33, 44);
     color:white;
 }
-
+/*---------------------------------contactos bootstrap---------------------------*/
 .dropdown{
     margin: 0px 0px 100px 10px;
 }
@@ -715,7 +715,21 @@ textarea{
     background-color: #1e7127;
     color: white;
 }
-
+/*------------------------------------------informacion bootstrap---------------------*/
+.accordion{
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.accordion-button{
+    background-color: #191823b0;
+    color: white;
+}
+.accordion-item{
+    background-color: black;
+    color: white;
+}
 
 
 
