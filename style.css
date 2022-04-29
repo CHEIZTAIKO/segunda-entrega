@@ -694,7 +694,27 @@ textarea{
     color:white;
 }
 
+.dropdown{
+    margin: 0px 0px 100px 10px;
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 40px;
+}
 
+.d-instagram{
+    background-color:#bc1888;
+    color: white;
+}
+.d-youtube{
+    background-color: #cc1515;
+    color: white;
+}
+.d-gmail{
+    background-color: #1e7127;
+    color: white;
+}
 
 
 
