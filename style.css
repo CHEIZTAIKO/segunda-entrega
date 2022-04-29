@@ -730,7 +730,12 @@ textarea{
     background-color: black;
     color: white;
 }
-
+/*-------------------------------------carousel---------------------------*/
+.carousel{
+    width: 90%;
+    margin: 10px auto;
+    border: 2px solid white;
+}
 
 
 
