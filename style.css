@@ -11,68 +11,70 @@ body{
     background-color: rgb(29, 29, 48);
 }
 /*------------------------------------header-----------------------------------------------*/
+
+/*
+HEADER
+*/
+
 header{
-    width:100%;
-    margin-top: 20px;
-    background-color: bisque;
-    background: linear-gradient(15deg, rgb(151, 157, 185),black) ;
-    border-bottom: 3px solid rgba(200, 199, 199,0.5);
-    border-top: 3px solid rgba(200, 199, 199,0.5);
+    width: 100%;
+    height: 60px;
+    background: rgba(1, 1, 1, 1);
+    color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
-nav{
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.contenedor{
+    width: 98%;
+    margin: auto;
 }
-nav a{
-    border-radius: 5px;
+
+.titulo-inicio{
+    float: left;
+}
+header label{
+    float: right;
+    font-size: 28px;
+    margin:6px 6px ;
+    cursor: pointer;
+}
+header .contenedor{
+    display: table;
+}
+
+/*
+MENU
+*/
+.menu{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: rgba(0,0,0,0.9);
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+.menu a{
+    display: block;
+    color: white;
+    height: 50px;
     text-decoration: none;
-    font-family: 'nosifer';
-    color:white;
-    margin: 0;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.menu a:hover{
+    background: rgba(255, 255, 255, 0.507);
     color: black;
-    height:100%;
 }
-.reiver{
-    width:160px ;
-    height:60px ;
-    margin-top: 15px;
-    }
-.reiver:hover{
-    transform:scale(1.5)
+#menu-bar{
+    display: none;
 }
-.bass{
-    width:200px ;
-    height:70px ;
-    margin-top:10px;
-}
-.bass:hover{
-    transform:scale(1.5)
-}
-.pick{
-    width:70px ;
-    height:70px ;
-    margin-top: 10px;
-}
-.pick:hover{
-    transform:scale(1.5)
-}
-.hoja{
-    width: 70px;
-    height:70px;
-    margin-top: 10px;
-}
-.hoja:hover{
-    transform:scale(1.5)
-}
-.plug{
-    width: 80px;
-    height:80px;
-    margin-top: 10px;
-}
-.plug:hover{
-    transform:scale(1.5)
+#menu-bar:checked ~ .menu{
+    transform: translateX(0);
 }
 
 /*----------------------------------------footer-----------------------------------------------------*/
@@ -339,32 +341,19 @@ textarea{
 .titulo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    margin: 20px 20px 20px 20px;
+    margin: 80px 20px 20px 20px;
     font-size: 3em;
     padding:25px;
     color:rgb(151, 157, 185);
-}
-.inicio{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    color:rgb(151, 157, 185);
-}
-.inicio-titulo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin: 20px 20px 20px 20px;
-    font-size: 3em;
-    padding:20px;
 }
 .inicio-introduccion{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
     justify-content: center;
     align-items: center;
-    margin:40px 20px 40px 20px;
+    margin:100px 20px 40px 20px;
     padding:10px;
-    
+    color: #bbb9d3b0;
 }
 
 
@@ -873,13 +862,9 @@ textarea{
     .titulo{
         font-size: 2em;
     }
-    .inicio-titulo{
-        font-size: 3em;
-        margin-top: 50px;
-    }
     .inicio-introduccion{
         font-size: 1.5em;
-        margin: 0;
+        margin-top: 80px;
         margin-bottom: 20px;
         padding: 10px 10px;
     }
@@ -925,6 +910,7 @@ textarea{
         height: 40px;
         font-size: 14px;
     }
+
     .pagos-footer{
         display: none;
     }
@@ -933,6 +919,8 @@ textarea{
     }
     .redes-footer{
         flex-direction: row;
+        border: 0;
+        width: 300px;
     }
     .redes-titulo{
         display: none;
